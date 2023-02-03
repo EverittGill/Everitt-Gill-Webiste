@@ -1,7 +1,300 @@
 * {
     /* background-color: lightgray; */
+  }
+  :root {
+    --light-blue: #1da1f2;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    margin-right: 40px;
+  }
+  
+  h2 {
+    font-size: xx-large;
+  }
+  
+  p {
+    background-color: var(--light-blue);
+  }
+  
+  p {
+    font-family: "Lora", serif;
+    color: white;
+    padding: 10px;
+  }
+  
+  a {
+    font-family: "Nunito", sans-serif;
+  }
+  
+  /* #resume-image {
+    height: 20%;
+    display: flex;
+  }
+   */
+  .nav-items {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+    color: white;
+  }
+  .nav-items-black {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+    color: black;
+  }
+  
+  li a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  li a:hover {
+    color: white;
+    text-shadow: 0px 0px 30px red;
+  }
+  
+  #black-text {
+    color: black;
+    display: flex;
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+    
+  }
+  
+  nav ul li a {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+    color: white;
+  }
+  
+  .container-top {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    background-color: var(--light-blue);
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  li {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .logo {
+    height: 10%;
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+  }
+  
+  .sub-heading {
+    height: 160px;
+    background-size: cover;
+    display: flex;
+    background-image: url(oak-wooden-textured-design-background_53876-143033.avif);
+  }
+  
+  .sub-heading-text {
+    position: relative;
+    background-color: var(--light-blue);
+    padding: 5px;
+    transform: translate(0%, -150%);
+    width: fit-content;
+    margin-top: 150px;
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+  }
+  
+  .Profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  #profile-picture {
+    height: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .site-section {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid var(red);
+    font-size: large;
+    line-height: 1.1;
+    display: flex;
+  }
+  
+  .site-section > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid red;
+    font-size: 4vw;
+    line-height: 1.1;
+  }
+  
+  .about-me {
+    display: flex;
+  }
+  
+  #about-me-text {
+    color: black;
+    width: auto;
+    background-color: white;
+    text-align: left;
+    font-size: larger;
+  }
+  
+  #about-me-image {
+    height: 200px;
+    width: auto;
+  }
+  
+  .my-work {
+    flex: 0 0 77%;
+  }
+  
+  .small-boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .mini-card {
+    position: relative;
+    background-color: var(--light-blue);
+    padding: 5px;
+    transform: translate(0%, -150%);
+    width: fit-content;
+    z-index: 1;
+  }
+  
+.mini-card-first {
+    position: absolute;
+    transform: translate(0%, 400%);
+    padding: 5px;
+    width: fit-content;
+    background-color: var(--light-blue);
 }
-:root {
+
+  .projects img {
+    z-index: 0;
+    width: 50%;
+    margin-bottom: 40px;
+  }
+  
+  #project-image {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    display: flex;
+  }
+  
+  #projects-image {
+    width: 400px;
+    height: 400px;
+    position: relative;
+  }
+  
+  .project-case {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 250px;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  
+  #resume-image {
+    height: fit-content;
+    width: 500px;
+    display: flex;
+    background-color: red;
+  } 
+  
+  .contact-items {
+    display: flex;
+    list-style-type: none;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+    color: black;
+    background-color: var(--light-blue);
+    width: 100%;
+    padding: 2%;
+  }
+ 
+  
+  footer {
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    /* background-color: lightgray; */
+/* } */
+/* :root {
     --light-blue: #1DA1F2;
 }
 
@@ -207,34 +500,86 @@ li {
 }
 
 
-.my-work {
-    flex: 0 0 77%;
-}
 
 
-.small-boxes {
-    display: flex;
-    flex-wrap: wrap;
-}
+
+
+
 
 .projects {
-    display: flex;
-    flex-wrap: wrap;
-
+  display: flex;
+  flex-wrap: wrap;
 }
-  
-    
-   
-
-
-
-
 
 .mini-card {
+  position: relative;
+  background-color: var(--light-blue);
+  padding: 5px;
+  transform: translate(0%, -150%);
+  width: fit-content;
+  z-index: 1;
+}
+
+.projects img {
+  z-index: 0;
+  width: 50%;
+}
+
+#project-image {
+  width: 800px;
+  height: 500px;
+  position: relative;
+}
+
+#projects-image {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.project-case {
+  display: flex;
+  flex-wrap: wrap;
+} */ 
+
+
+/* 
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+      "large large"
+      "small small"
+      "small small";
+    grid-gap: 10px
+}
+  
+.projects-large {
+    grid-area: large;
+}
+    
+.projects-small {
+    grid-area: small;
+} */
+
+/* .projects {
+    display: flex;
+}
+
+.big-image {
+    min-height: 400px;
+    flex-basis: 100%;
+    display: flex;
     position: relative;
+    flex-wrap: wrap;
+}
+
+.mini-card {
+    position: absolute;
     background-color: var(--light-blue);
     padding: 5px;
-    transform: translate(0%, -150%);
+    transform: translate(0%, 1%);
     width: fit-content;
     z-index: 1;
 }
@@ -249,4 +594,7 @@ li {
     width: 800px;
     height: 500px;
     position: relative;
-}
+    border: red;
+    background-image: url(20220605_174448.jpg);
+    background-size: cover;
+} */

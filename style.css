@@ -230,9 +230,20 @@
     text-align: center;
   }
 
+  #black-text {
+    color: black;
+    display: flex;
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out; */
+
+    
+  }
+
 /* below are the media queries. The break point is set for my phone, the iphone 13 pro max */
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 428px) {
     .logo {
       display: none;
     }
@@ -266,6 +277,7 @@
   
     #project-image, #resume-image {
      width: 400px;
+     height: 200px;
     }
 
     .contact-items {

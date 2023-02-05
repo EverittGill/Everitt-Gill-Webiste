@@ -243,7 +243,7 @@
 
 /* below are the media queries. The break point is set for my phone, the iphone 13 pro max */
 
-  @media screen and (max-width: 428px) {
+  @media screen and (max-width: 600px) {
     .logo {
       display: none;
     }

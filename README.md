@@ -33,7 +33,7 @@ https://everittgill.github.io/Everitt-GIll-Webiste/
 
 
 Upon following the link you will see this as the top of the page
-    ![Home Page]()
+    ![Home Page](https://github.com/EverittGill/Everitt-GIll-Webiste/blob/main/Screenshot%202023-02-04%20at%207.39.44%20PM.png?raw=true)
     
 
 
@@ -41,7 +41,7 @@ Upon following the link you will see this as the top of the page
 ## Usage
 
 
-Once the webpage has loaded click on the three links in the top right to view their respective contents located further down the page. Read the material displaying what Horiseon has to offer our clients and contact us at 555-555-5555 for more information at this time or submit an issue on Github
+Once the webpage has loaded click on the links in the top right to view their respective contents located further down the page and to see their effects. Read the "about me" section and check out my resume. For more information call me with the link at the bottom of the page or submit an issue on Github.
 
 ## Credits
 
@@ -59,4 +59,5 @@ MIT License
 ## Features
 
 - Functional links
-- Beautiful design
+- Most pictures function as links
+- Email, phone, and social media support 

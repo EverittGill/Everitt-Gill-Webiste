@@ -162,10 +162,10 @@
   .projects {
     display: flex;
     flex-wrap: wrap;
-    
   }
   
   /* mini cards are the names of the projects within the images */
+  
   .mini-card {
     position: relative;
     background-color: var(--light-blue);
@@ -174,6 +174,7 @@
     width: fit-content;
     z-index: 1;
   }
+
   
   .mini-card-first {
     position: absolute;
@@ -184,7 +185,6 @@
 }
 
   .projects img {
-    z-index: 0;
     width: 50%;
     margin-bottom: 40px;
   }
@@ -236,12 +236,12 @@
     list-style-type: none;
     font-size: 1.4rem;
     text-decoration: none;
-    transition: all 0.5s ease-in-out; */
+    transition: all 0.5s ease-in-out; 
 
     
   }
 
-/* below are the media queries. The break point is set for my phone, the iphone 13 pro max */
+/* below are the media queries. */
 
   @media screen and (max-width: 600px) {
     .logo {
@@ -275,9 +275,17 @@
       line-height: 1.6;
     }
   
+    .mini-card-first {
+      position: absolute;
+      transform: translate(0%, 100%);
+      padding: 5px;
+      width: fit-content;
+      background-color: var(--light-blue);
+    }
+
     #project-image, #resume-image {
      width: 400px;
-     height: 200px;
+     height: 400px;
     }
 
     .contact-items {

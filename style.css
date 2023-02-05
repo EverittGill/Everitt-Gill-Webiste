@@ -116,7 +116,7 @@
     height: 160px;
     background-size: cover;
     display: flex;
-    background-image: url(oak-wooden-textured-design-background_53876-143033.avif);
+    background-image: url(images/oak-wooden-textured-design-background_53876-143033.avif);
   }
   
   .sub-heading-text {
@@ -207,7 +207,7 @@
     z-index: 1;
   }
   
-.mini-card-first {
+  .mini-card-first {
     position: absolute;
     transform: translate(0%, 400%);
     padding: 5px;

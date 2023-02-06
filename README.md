@@ -2,16 +2,9 @@
 
 ## Description
 
--This webpage was created to be a home page for Everitt Gill to use as a lading page for potential clients and employers. It features some of my work, several pictures of me, and and a short bio. 
+- This webpage was created to be a home page for Everitt Gill to use as a lading page for potential clients and employers. It features some of my work, several pictures of me, and and a short bio. 
 
-
-<!-- This webpage was created to be a home page for Horiseon. A digital marketing firm specializing in SEO, online reputation management, and social media marketing. This page will serve to be the the first thing visitors see when choosing to look into Horiseon as an advertising firm. -->
-
-
--This page will serve as the primary landing page for my work and a link or QR code will be used in any advertizing I do in digital or print media.
-
-
-<!-- - This page was created to be used as a primary landing page if a potential client searches for Horiseon on a search engine or follows a link from one of our own advertisements promoting Horiseon. It will also serve to be a home page for other web pages about Horiseon. -->
+- This page will serve as the primary landing page for my work and a link or QR code will be used in any advertizing I do in digital or print media.
 
 - The primary problem this page solves is very basic. I needed a website to educate potential clients about myself, display my work, and to provide a place to go when people search for me online.
 
@@ -33,7 +26,7 @@ https://everittgill.github.io/Everitt-GIll-Webiste/
 
 
 Upon following the link you will see this as the top of the page
-    ![Home Page](https://github.com/EverittGill/Everitt-GIll-Webiste/blob/main/Screenshot%202023-02-04%20at%207.39.44%20PM.png?raw=true)
+    ![Home Page](https://github.com/EverittGill/Everitt-GIll-Webiste/blob/main/images/Screenshot%202023-02-04%20at%207.39.44%20PM.png)
     
 
 
